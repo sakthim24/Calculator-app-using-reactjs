@@ -1,0 +1,118 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@500&family=Nobile:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Black+Ops+One&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c2321;
+
+
+}
+.title{
+    height: 30px;
+    top:13%;
+    left:36%;
+    font-family: 'Fira Mono', monospace;
+    font-family: 'Nobile', sans-serif;
+    font-size: 40px;
+    color: #C8A010;
+    background-color: #252627;
+    border: 2px solid #C8A010;
+    border-radius: 5px;
+    padding: 14px ;
+    width: 350px;
+    text-align: center;
+    position: absolute;
+}
+.container{
+    font-family: 'Audiowide', cursive;
+    top:60%;
+    left:50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    width: 380px;   
+    text-align: center;
+    background: #252627;
+    border-radius: 5px;
+}
+.display{
+    margin: 10px auto;
+    height: 70px;
+    border: 2px solid #C8A010;
+    border-radius: 5px;
+    padding: 14px ;
+    width: 330px;
+    font-size: 40px;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Black Ops One', cursive;
+    text-align: right;
+    color: #C8A010;
+    background-color: #252627;
+}
+.input{
+    margin: 0px 5px 5px 5px;
+    display:grid;
+    grid-template-columns: repeat(4 ,1fr);
+    grid-auto-rows: minmax(60px, auto);
+
+}
+#number{
+    font-size: 30px;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Black Ops One', cursive;
+}
+
+#eql{
+    grid-column: 3/5;
+    grid-row: 6;
+    font-size: 30px;
+    font-family: 'Audiowide', cursive;
+    font-family: 'Black Ops One', cursive;
+    background: #C8A010;
+    border: 0px;
+    border-radius: 5px;
+    color: #252627;
+}
+#delete{
+    font-family: 'Fira Mono', monospace;
+    font-family: 'Nobile', sans-serif;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 5px;
+    background: #C8A010;
+    color: #252627;
+}
+#operator{
+    font-family: 'Audiowide', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-size: 20px;
+    background: #C8A010;
+    color: #252627;
+}
+#decimal{
+    font-family: 'Audiowide', cursive;
+    font-family: 'Black Ops One', cursive;
+    font-size: 30px;
+}
+#clear{
+    font-family: 'Fira Mono', monospace;
+    font-family: 'Nobile', sans-serif;
+    grid-row: 1/3;
+    font-size: 20px;
+    border: 0px;
+    border-radius: 5px;
+    background: #C8A010;
+    color: #252627;
+}
+button{
+    margin: 5px;
+    border: 2px solid #C8A010;
+    background: transparent;
+    cursor: pointer;
+    color: #C8A010;
+    transition: all 0.3s ease;
+}
+
+  
