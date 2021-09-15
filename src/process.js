@@ -42,8 +42,7 @@ function Process(){
  
     return(
       <div>
-      <div className="title">BODMAS CALC
-        </div>  
+      
         <div className="container">   
           
           <Screen value={input} />
